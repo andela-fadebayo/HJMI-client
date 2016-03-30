@@ -128,7 +128,6 @@ header .btn-hjmi:hover {
 
 .message-right {
 	background-color: #fff;
-	border: 1px solid darkcyan;
 	padding: 30px 0;
 }
 
@@ -187,7 +186,7 @@ header .btn-hjmi:hover {
 	border-radius: 0;
 	color: #fff;
 	text-align: left;
-	transition: all ease .25s;
+	transition: all cubic-bezier(0, -0.62, 1, 2.42) .35s;
 	width: 100%;
 }
 
@@ -202,7 +201,7 @@ header .btn-hjmi:hover {
 	border: 1px solid #00bfff;
 	color: #00bfff;
 	outline: 0;
-	transition: all ease .25s;
+	transition: all cubic-bezier(0, -0.62, 1, 2.42) .35s;
 }
 
 .order-message .btn-order {
@@ -214,4 +213,83 @@ header .btn-hjmi:hover {
 	text-align: center;
 	transition: all ease .25s;
 	width: 100%;
+}
+
+/* ----------------------------------------- */
+/* TESTIMONIES AND EVENTS */
+/* ----------------------------------------- */ 
+.testimonies-events {
+  background: url('../assets/images/people_white_opaque.jpg') no-repeat center center;
+  background-size: cover;
+  padding: 20px 60px;
+  width: 100%;
+}
+
+.testimonies-events .testimonies .te-title,
+.testimonies-events .events .te-title {
+  color: #00bfff;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.testimonies-events .testimonies .test-icon,
+.testimonies-events .events .test-icon {
+  border-radius: 50%;
+  color: #00bfff;
+  font-size: 3.75em;
+  position: absolute;
+  text-align: center;
+  width: 90px;
+  z-index: 20;
+}
+
+.testimonies-events .testimonies .content,
+.testimonies-events .events .content {
+  background-color: #f3f3f3;
+  margin: 50px;
+  padding: 20px;
+  position: relative;
+  z-index: 3;
+}
+
+.testimonies-events .testimonies .content .quote,
+.testimonies-events .events .content .quote {
+  border-top: 50px solid #00bfff;
+  border-left: 50px solid transparent;
+  height: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 0;
+}
+
+.testimonies-events .testimonies .content .quote i,
+.testimonies-events .events .content .quote i {
+  position: absolute;
+  top: -40px;
+  right: 4px;
+  color: white;
+}
+
+.testimonies-events .testimonies .content .btn-m-action,
+.testimonies-events .events .content .btn-m-action {
+  background-color: #00bfff;
+  border-radius: 0;
+  color: #fff;
+  text-align: left;
+  transition: all cubic-bezier(0, -0.62, 1, 2.42) .35s;
+  width: auto;
+}
+
+.testimonies-events .testimonies .content .btn-m-action:hover,
+.testimonies-events .testimonies .content .btn-m-action:focus,
+.testimonies-events .testimonies .content .btn-m-action:active,
+.testimonies-events .events .content .btn-m-action:hover,
+.testimonies-events .events .content .btn-m-action:focus,
+.testimonies-events .events .content .btn-m-action:active {
+  background-color: #fff;
+  border: 1px solid #00bfff;
+  color: #00bfff;
+  outline: 0;
+  transition: all cubic-bezier(0, -0.62, 1, 2.42) .35s;
 }
