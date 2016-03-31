@@ -420,3 +420,63 @@ header .btn-hjmi:hover {
 .devotionals .de-footer .de-sub-footer {
 	font-size: .875em;
 }
+
+/* ----------------------------------------- */
+/* SUBSRIBE FOR NEWSLETTER */
+/* ----------------------------------------- */
+.subscribe {
+	background: url('../assets/images/subscribe-newsletter.jpg') no-repeat center center;
+	background-size: cover;
+	color: #fff;
+	padding: 50px;
+	padding-top: 20px;
+}
+
+.subscribe hr {
+	border-top-color: #969191;
+	width: 250px;
+}
+
+.subscribe .subscribe-input {
+	text-align: center;
+}
+
+.subscribe .subscribe-input .s-input-field {
+  border-radius: 0;
+  padding: 20px 10px;
+	transition: all cubic-bezier(0, -0.62, 1, 2.42) .35s;
+}
+
+.subscribe .subscribe-input .s-input-field:hover,
+.subscribe .subscribe-input .s-input-field:focus,
+.subscribe .subscribe-input .s-input-field:active {
+	border: 1px solid #00bfff;
+	outline: none;
+	transition: all cubic-bezier(0, -0.62, 1, 2.42) .35s;
+}
+
+@media (min-width: 768px) {
+	.subscribe .subscribe-input .s-input-field {
+		width: 400px;
+	}
+}
+
+.subscribe .subscribe-input .btn-subscribe {
+	background-color: #00bfff;
+	border-radius: 0;
+	color: #fff;
+	padding: 10px 30px;
+	text-align: left;
+	transition: all cubic-bezier(0, -0.62, 1, 2.42) .35s;
+	width: auto;
+}
+
+.subscribe .subscribe-input .btn-subscribe:hover,
+.subscribe .subscribe-input .btn-subscribe:focus,
+.subscribe .subscribe-input .btn-subscribe:active {
+	background-color: #fff;
+	border: 1px solid #00bfff;
+	color: #00bfff;
+	outline: 0;
+	transition: all cubic-bezier(0, -0.62, 1, 2.42) .35s;
+}
