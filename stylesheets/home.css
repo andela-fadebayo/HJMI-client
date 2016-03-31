@@ -306,3 +306,117 @@ header .btn-hjmi:hover {
   outline: 0;
   transition: all cubic-bezier(0, -0.62, 1, 2.42) .35s;
 }
+
+/* ----------------------------------------- */
+/* ABOUT THE PASTOR */
+/* ----------------------------------------- */
+.about-pastor {
+	background-color: #efefef;
+	color: #6f6f6f;
+	padding: 40px;
+	padding-bottom: 300px;
+	text-align: center;
+}
+
+.about-pastor .ab-title {
+	color: #00bfff;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.about-pastor .ab-head hr {
+	border-top-color: rgba(0, 191, 255, .5);
+	width: 180px;
+}
+
+.pastor-picture {
+	background-color: #fff;
+	position: relative;
+}
+
+.pastor-picture .row {
+	left: 36%;
+  position: absolute;
+  top: -280px;
+}
+
+.pastor-picture .row img {
+	width: 50%;
+}
+
+/* ----------------------------------------- */
+/* DEVOTIONALS */
+/* ----------------------------------------- */
+.devotionals {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.devotionals .de-wrapper {
+	padding: 20px;
+}
+
+.devotionals .de-middle {
+	margin-top: 100px;
+}
+
+.devotionals .de-fold {
+	background-color: #7d7d7d;
+  height: 50px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  width: 50px;
+  z-index: 5;
+}
+
+.devotionals .de-quote {
+	border-top: 50px solid #00bfff;
+  border-left: 50px solid transparent;
+  height: 0;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  width: 0;
+  z-index: 20;
+}
+
+.devotionals .de-quote i {
+	position: absolute;
+  top: -40px;
+  right: 6px;
+  color: white;
+}
+
+.devotionals .de-content {
+	background-color: #f6f6f6;
+  box-shadow: 0 0 4px 1px rgba(202, 200, 200, 0.75);
+	color: #6f6f6f;
+	padding: 20px;
+	position: relative;
+	text-align: justify;
+  z-index: 10;
+}
+
+.devotionals .de-content .de-callout {
+	border-top: 40px solid #f6f6f6;
+  border-left: 40px solid transparent;
+  height: 0;
+  position: absolute;
+  left: 35px;
+  bottom: -20px;
+  transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  width: 0;
+  z-index: 9;
+}
+
+.devotionals .de-footer {
+	color: #6f6f6f;
+	margin: 40px auto;
+}
+
+.devotionals .de-footer .de-sub-footer {
+	font-size: .875em;
+}
