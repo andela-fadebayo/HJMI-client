@@ -246,28 +246,41 @@ header .btn-hjmi:hover {
 .testimonies-events .testimonies .content,
 .testimonies-events .events .content {
   background-color: #f3f3f3;
+  box-shadow: 0 0 4px 1px rgba(202, 200, 200, 0.75);
   margin: 50px;
   padding: 20px;
   position: relative;
-  z-index: 3;
+  z-index: 10;
 }
 
-.testimonies-events .testimonies .content .quote,
-.testimonies-events .events .content .quote {
+.testimonies-events .testimonies .quote,
+.testimonies-events .events .quote {
   border-top: 50px solid #00bfff;
   border-left: 50px solid transparent;
   height: 0;
   position: absolute;
-  right: 0;
-  top: 0;
+  right: 60px;
+  top: 91px;
   width: 0;
+  z-index: 20;
 }
 
-.testimonies-events .testimonies .content .quote i,
-.testimonies-events .events .content .quote i {
+.testimonies-events .testimonies .fold,
+.testimonies-events .events .fold {
+  background-color: #7d7d7d;
+  height: 50px;
+  position: absolute;
+  right: 60px;
+  top: 91px;
+  width: 50px;
+  z-index: 5;
+}
+
+.testimonies-events .testimonies .quote i,
+.testimonies-events .events .quote i {
   position: absolute;
   top: -40px;
-  right: 4px;
+  right: 6px;
   color: white;
 }
 
