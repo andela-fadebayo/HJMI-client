@@ -41,6 +41,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Exo';
+  src: url('../assets/fonts/exo/Exo-Medium.otf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
 html {
 	background-color: #fff;
 	font-size: 16px;
