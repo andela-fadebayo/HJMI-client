@@ -480,3 +480,162 @@ header .btn-hjmi:hover {
 	outline: 0;
 	transition: all cubic-bezier(0, -0.62, 1, 2.42) .35s;
 }
+
+/* ----------------------------------------- */
+/* CONTACT US */
+/* ----------------------------------------- */
+.contact-us {
+	background: url('../assets/images/diamond-bg.jpg') no-repeat center center;
+	background-size: cover;
+	color: #fff;
+	padding-bottom: 40px;
+	padding-top: 20px;
+}
+
+.contact-us h3 {
+	color: #00bfff;
+}
+
+.contact-us hr {
+	border-top-color: #00bfff;
+	width: 100px;
+}
+
+.contact-us .contact-form {
+	padding: 0 20px;
+}
+
+.contact-us .contact-form .input-group-addon {
+	background-color: #fff;
+	border-radius: 0;
+	transition: all cubic-bezier(0, -0.62, 1, 2.42) .35s;
+}
+
+.contact-us .contact-form .input-group .input-group-addon:hover {
+	color: #00bfff;
+	transition: all cubic-bezier(0, -0.62, 1, 2.42) .35s;
+}
+
+.contact-us .contact-form .input-group .form-control {
+	border-radius: 0;
+	outline: none;
+	transition: all cubic-bezier(0, -0.62, 1, 2.42) .35s;
+}
+
+.contact-us .contact-form .input-group .form-control:hover,
+.contact-us .contact-form .input-group .form-control:focus,
+.contact-us .contact-form .input-group .form-control:active {
+	border: 1px solid #00bfff;
+	box-shadow: none;
+	outline: none;
+	transition: all cubic-bezier(0, -0.62, 1, 2.42) .35s;
+}
+
+.contact-us .contact-form .btn-contact-us {
+	background-color: #00bfff;
+	border-radius: 0;
+	color: #fff;
+	padding: 10px 30px;
+	text-align: left;
+	transition: all cubic-bezier(0, -0.62, 1, 2.42) .35s;
+	width: auto;
+}
+
+.contact-us .contact-form .btn-contact-us:hover,
+.contact-us .contact-form .btn-contact-us:focus,
+.contact-us .contact-form .btn-contact-us:active {
+	background-color: #fff;
+	border: 1px solid #00bfff;
+	color: #00bfff;
+	outline: 0;
+	transition: all cubic-bezier(0, -0.62, 1, 2.42) .35s;
+}
+
+/* ----------------------------------------- */
+/* FOOTER */
+/* ----------------------------------------- */
+footer {
+	background-color: #000;
+	border-top: 2px solid #00bfff;
+	font-size: .875em;
+	padding-bottom: 10px;
+	padding-top: 30px;
+}
+
+footer .quick-links h4,
+footer .address h4 {
+	color: #00bfff;
+	margin-bottom: 20px;
+}
+
+footer .quick-links ul {
+	line-height: 25px;
+	list-style: none;
+	padding: 0;
+}
+
+footer .quick-links ul li a {
+	color: #d8d8d8;
+}
+
+footer .quick-links ul li a:hover {
+	color: #00bfff;
+}
+
+footer .address {
+	color: #d8d8d8;
+	line-height: 25px;
+}
+
+footer .address i {
+	padding-right: 10px;
+}
+
+footer .address .connect-with-us {
+	margin: 20px 0;
+	padding: 20px 0;
+}
+
+footer .address .connect-with-us h5 {
+  color: #00bfff;
+}
+
+footer .address .connect-with-us ul.socials li {
+  display: inline-block;
+}
+
+footer .address .connect-with-us ul.socials li i {
+	color: #989696;
+	font-size: 1.714em;
+	transition: all cubic-bezier(0, -0.62, 1, 2.42) .35s;
+}
+
+footer .address .connect-with-us ul.socials li i.fa-twitter:hover {
+	color: #00aced;
+	transition: all cubic-bezier(0, -0.62, 1, 2.42) .35s;
+}
+
+footer .address .connect-with-us ul.socials li i.fa-facebook:hover {
+	color: #3b5998;
+	transition: all cubic-bezier(0, -0.62, 1, 2.42) .35s;
+}
+
+footer .address .connect-with-us ul.socials li i.fa-youtube-play:hover {
+	color: #bb0000;
+	transition: all cubic-bezier(0, -0.62, 1, 2.42) .35s;
+}
+
+footer .address .connect-with-us ul.socials li i.fa-google-plus:hover {
+	color: #dd4b39;
+	transition: all cubic-bezier(0, -0.62, 1, 2.42) .35s;
+}
+
+footer .address .connect-with-us ul.socials li i.fa-instagram:hover {
+	color: #517fa4;
+	transition: all cubic-bezier(0, -0.62, 1, 2.42) .35s;
+}
+
+footer .address .connect-with-us ul.socials li i.fa-pinterest:hover {
+	color: #cb2027;
+	transition: all cubic-bezier(0, -0.62, 1, 2.42) .35s;
+}
