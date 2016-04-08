@@ -47,6 +47,7 @@ header {
 }
 
 header .intro-text {
+	font-family: 'Exo', 'Raleway', sans-serif;
 	font-size: 3.21875rem;
 	margin-bottom: 90px;
 }
