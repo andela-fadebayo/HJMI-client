@@ -5,7 +5,7 @@ init = function () {
 
   // Collapse navbar on scroll
   function collapseNavbar() {
-    if ($(".navbar-hjmi").offset().top > 150) {
+    if ($(".navbar-hjmi").offset().top > 450) {
       $(".navbar-fixed-top").addClass("top-nav-collapse");
     } else {
       $(".navbar-fixed-top").removeClass("top-nav-collapse");
