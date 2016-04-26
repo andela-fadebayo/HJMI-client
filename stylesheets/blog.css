@@ -133,3 +133,83 @@ header#blog-header .btn-hjmi:hover {
 .search .search-btn:focus {
 	box-shadow: 0 0 2px 2px rgba(0, 191, 255, .3);
 }
+
+/* BLOG CONTENT */
+.post .info {
+	color: #9b9b9b;
+}
+
+.post .info .date {
+	box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.45);
+	text-align: center;
+}
+
+.post .info .date .month {
+	background-color: #00bfff;
+	color: #fff;
+	font-size: 1.5em;
+	padding: 12px;
+	text-transform: uppercase;
+}
+
+.post .info .date .day {
+	font-size: 4em;
+}
+
+.post .info .date .year {
+	border-top: 1px solid #eceaea;
+	font-size: 1.5em;
+	padding: 5px;
+}
+
+.post .info .i-more,
+.post .info .tags,
+.post .info .categories {
+	margin: 20px auto;
+}
+
+.post .info .tags .label {
+	background-color: #d8d8d8;
+	border: 1px solid transparent;
+	color: #9b9b9b;
+	cursor: pointer;
+	font-weight: normal;
+}
+
+.post .info .tags .label:hover {
+	border: 1px solid #00bfff;
+	color: #000;
+}
+
+.post .info .categories ul li {
+  font-size: 14px;
+  list-style: none;
+}
+
+/* Blog Content */
+.post-content h3 {
+	margin-top: 0;
+}
+
+.post-content .post-image {
+	margin: 20px auto;
+}
+
+.post-content .post-image img {
+  width: 100%;
+}
+
+.post-content .post-footer {
+	font-size: 0.875em;
+	margin: 20px auto;
+}
+
+.post-content .post-footer .share-post i {
+	margin: 0 5px;
+}
+
+hr {
+	border: 1px solid #eceaea;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
