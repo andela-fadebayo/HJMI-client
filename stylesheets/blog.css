@@ -1,0 +1,215 @@
+header#blog-header {
+	background: url('../assets/images/carousel_1_overlay.jpg') no-repeat center center;
+	background-size: cover;
+  color: #fff;
+	height: 300px;
+	text-align: center;
+	width: 100%;
+}
+
+header#blog-header .intro-text {
+	font-family: 'Exo', 'Raleway', sans-serif;
+	font-size: 3.21875rem;
+	line-height: 300px;
+	margin-bottom: 90px;
+}
+
+header#blog-header .btn-hjmi {
+	background-color: #00bfff;
+	border-radius: 0;
+	color: #fff;
+	font-size: 2.075rem;
+	padding: 15px 55px;
+}
+
+header#blog-header .btn-hjmi:hover {
+	background-color: rgba(0, 191, 255, .8);
+	border: 1px solid #00bfff;
+	border-radius: 0;
+	color: #fff;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  height: 100%;
+  z-index: 2;
+}
+
+/* LEFT SIDE BAR */
+.b-content {
+	margin: 50px auto;
+}
+
+.subscribe-now {
+	background-color: rgba(225, 224, 225, 0.3);
+	padding: 10px;
+}
+
+.subscribe-now h4 {
+	color: #00bfff;
+	font-family: 'Exo', 'Raleway', sans-serif;
+	font-weight: 500;
+}
+
+.subscribe-now p {
+	color: #4a4a4a;
+}
+
+.subscribe-now .email-input {
+	border: 1px solid #d8d8d8;
+	border-radius: 0;
+	outline: none;
+	margin: 20px auto;
+  transition: all cubic-bezier(0, -0.62, 1, 2.42) .35s;
+}
+
+.subscribe-now .email-input:hover,
+.subscribe-now .email-input:active,
+.subscribe-now .email-input:focus {
+  border: 1px solid #00bfff;
+  transition: all cubic-bezier(0, -0.62, 1, 2.42) .35s;
+}
+
+.subscribe-now .subscribe-btn {
+	background-color: #fff;
+	border: 1px solid #00bfff;
+	border-radius: 0;
+	color: #00bfff;
+	outline: none;
+  transition: all cubic-bezier(0, -0.62, 1, 2.42) .35s;
+}
+
+.subscribe-now .subscribe-btn:hover {
+	background-color: #00bfff;
+	border: 1px solid transparent;
+	color: #fff;
+	outline: none;
+  transition: all cubic-bezier(0, -0.62, 1, 2.42) .35s;
+}
+
+.subscribe-now .subscribe-btn:focus {
+	box-shadow: 0 0 2px 2px rgba(0, 191, 255, .3);
+}
+
+/* Search */
+.search {
+	margin: 30px auto;
+}
+
+.search .search-input {
+	background-color: rgba(216, 216, 216, .2);
+	border: 1px solid #d8d8d8;
+	border-radius: 0;
+	color: #8F8E90;
+	outline: none;
+  transition: all cubic-bezier(0, -0.62, 1, 2.42) .35s;
+}
+
+.search .search-input:hover,
+.search .search-input:focus,
+.search .search-input:active {
+	border: 1px solid #00bfff;
+  transition: all cubic-bezier(0, -0.62, 1, 2.42) .35s;
+}
+
+.search .search-btn {
+	background-color: #00bfff;
+	border: 1px solid transparent;
+	border-radius: 0;
+	color: #fff;
+	outline: none;
+  transition: all cubic-bezier(0, -0.62, 1, 2.42) .35s;
+}
+
+.search .search-btn:hover {
+	background-color: #fff;
+	border: 1px solid #00bfff;
+	color: #00bfff;
+	outline: none;
+  transition: all cubic-bezier(0, -0.62, 1, 2.42) .35s;
+}
+
+.search .search-btn:focus {
+	box-shadow: 0 0 2px 2px rgba(0, 191, 255, .3);
+}
+
+/* BLOG CONTENT */
+.post .info {
+	color: #9b9b9b;
+}
+
+.post .info .date {
+	box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.45);
+	text-align: center;
+}
+
+.post .info .date .month {
+	background-color: #00bfff;
+	color: #fff;
+	font-size: 1.5em;
+	padding: 12px;
+	text-transform: uppercase;
+}
+
+.post .info .date .day {
+	font-size: 4em;
+}
+
+.post .info .date .year {
+	border-top: 1px solid #eceaea;
+	font-size: 1.5em;
+	padding: 5px;
+}
+
+.post .info .i-more,
+.post .info .tags,
+.post .info .categories {
+	margin: 20px auto;
+}
+
+.post .info .tags .label {
+	background-color: #d8d8d8;
+	border: 1px solid transparent;
+	color: #9b9b9b;
+	cursor: pointer;
+	font-weight: normal;
+}
+
+.post .info .tags .label:hover {
+	border: 1px solid #00bfff;
+	color: #000;
+}
+
+.post .info .categories ul li {
+  font-size: 14px;
+  list-style: none;
+}
+
+/* Blog Content */
+.post-content h3 {
+	margin-top: 0;
+}
+
+.post-content .post-image {
+	margin: 20px auto;
+}
+
+.post-content .post-image img {
+  width: 100%;
+}
+
+.post-content .post-footer {
+	font-size: 0.875em;
+	margin: 20px auto;
+}
+
+.post-content .post-footer .share-post i {
+	margin: 0 5px;
+}
+
+hr {
+	border: 1px solid #eceaea;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
