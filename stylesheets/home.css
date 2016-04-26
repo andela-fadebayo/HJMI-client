@@ -34,7 +34,7 @@
 	transition: all cubic-bezier(0, -0.62, 1, 2.42) .35s;
 }
 
-header {
+header#header {
 	background: url('../assets/images/carousel_1_overlay.jpg') no-repeat center center;
 	background-size: cover;
 	height: 760px;
@@ -46,13 +46,13 @@ header {
 	text-align: center;
 }
 
-header .intro-text {
+header#header .intro-text {
 	font-family: 'Exo', 'Raleway', sans-serif;
 	font-size: 3.21875rem;
 	margin-bottom: 90px;
 }
 
-header .btn-hjmi {
+header#header .btn-hjmi {
 	background-color: #00bfff;
 	border-radius: 0;
 	color: #fff;
@@ -60,7 +60,7 @@ header .btn-hjmi {
 	padding: 15px 55px;
 }
 
-header .btn-hjmi:hover {
+header#header .btn-hjmi:hover {
 	background-color: rgba(0, 191, 255, .8);
 	border: 1px solid #00bfff;
 	border-radius: 0;
